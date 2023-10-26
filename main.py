@@ -15,4 +15,4 @@ with ui.row():
     ui.select(['One', 'Two'], value='One', on_change=show)
 ui.link('And many more...', '/documentation').classes('mt-8')
 
-ui.run(port=80, host='0.0.0.0')
+ui.run(port=80)
